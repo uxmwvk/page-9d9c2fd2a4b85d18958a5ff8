@@ -1,0 +1,306 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>疾速 · 一份关于网络使用方式的说明</title><meta name="description" content="疾速把网络方案写成可以读明白的说明：从一条时间线说起，逐项讲清套餐、设备接入与常见问题。"><meta name="keywords" content="疾速,网络方案,套餐说明,设备接入,常见问题"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-0e43198e8b.uupii.cn/"><meta property="og:type" content="website"><meta property="og:title" content="疾速 · 一份关于网络使用方式的说明"><meta property="og:description" content="疾速把网络方案写成可以读明白的说明：从一条时间线说起，逐项讲清套餐、设备接入与常见问题。"><meta property="og:url" content="https://p-0e43198e8b.uupii.cn/"><meta property="og:site_name" content="疾速"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-0e43198e8b.uupii.cn/", "name": "疾速 · 一份关于网络使用方式的说明", "description": "疾速把网络方案写成可以读明白的说明：从一条时间线说起，逐项讲清套餐、设备接入与常见问题。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="9d9c2fd2a4b85d18958a5ff8:c08d738a07dcf46cec7237adf1ebfad70b93bc6f02f8111953789a0d992e71fb:6ea7ec55a7330f2efd84"></head><body id="top"><style>
+:root{--ivory:#f4efe6;--ivory-deep:#eae2d4;--brick:#a63f2b;--brick-dark:#7d2c1d;--ink:#26221e;--ink-soft:#5c554c;--line:#cfc4b2}
+*{box-sizing:border-box}
+html{}
+body{margin:0;background:var(--ivory);color:var(--ink);font-family:"Songti SC","Noto Serif CJK SC","Source Han Serif SC",Georgia,serif;font-size:17px;line-height:1.85;padding-bottom:78px}
+a{color:var(--brick-dark);text-decoration:none;border-bottom:1px solid var(--line)}
+a:hover{color:var(--brick);border-bottom-color:var(--brick)}
+h1,h2,h3{line-height:1.35;margin:0}
+p{margin:0 0 1em}
+
+.wrap{width:100%;max-width:1080px;margin:0 auto;padding:0 24px}
+
+/* 首屏：纵向时间线 */
+.hero{padding:64px 0 40px;border-bottom:1px solid var(--line)}
+.hero-kicker{font-size:.82rem;letter-spacing:.32em;color:var(--brick);text-transform:uppercase;margin-bottom:26px}
+.hero h1{font-size:clamp(2.4rem,6vw,4.2rem);font-weight:700;letter-spacing:-.01em;max-width:15em}
+.hero h1 .accent{color:var(--brick)}
+.hero-lead{margin-top:26px;max-width:34em;font-size:1.06rem;color:var(--ink-soft)}
+.timeline{margin:52px 0 0;padding:0;list-style:none;position:relative}
+.timeline::before{content:"";position:absolute;left:9px;top:8px;bottom:8px;width:2px;background:var(--line)}
+.timeline li{position:relative;padding:0 0 30px 44px}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{content:"";position:absolute;left:3px;top:10px;width:14px;height:14px;border:2px solid var(--brick);background:var(--ivory);border-radius:50%}
+.timeline .tl-step{display:block;font-size:.78rem;letter-spacing:.2em;color:var(--brick);margin-bottom:4px}
+.timeline .tl-title{display:block;font-size:1.12rem;font-weight:700;margin-bottom:2px}
+.timeline .tl-desc{display:block;color:var(--ink-soft);font-size:.96rem;max-width:38em}
+
+/* 通用区块 */
+section.block{padding:64px 0;border-bottom:1px solid var(--line)}
+section.block:last-of-type{border-bottom:0}
+.block-head{margin-bottom:36px;max-width:40em}
+.block-head h2{font-size:clamp(1.5rem,3.4vw,2.1rem);margin-bottom:12px}
+.block-head h2::before{content:"";display:inline-block;width:26px;height:4px;background:var(--brick);vertical-align:middle;margin-right:12px;transform:translateY(-4px)}
+.block-head p{color:var(--ink-soft);margin:0}
+
+/* 左侧色条卡片 */
+.card{border-left:5px solid var(--brick);background:var(--ivory-deep);padding:24px 26px;margin-bottom:20px}
+.card:last-child{margin-bottom:0}
+.card h3{font-size:1.12rem;margin-bottom:8px}
+.card p{margin:0;color:var(--ink-soft)}
+.card p + p{margin-top:.7em}
+
+/* 套餐：纵向列表逐行展开 */
+.plans{display:block}
+.plan{border-left:5px solid var(--line);padding:26px 0 26px 26px;border-bottom:1px dashed var(--line)}
+.plan:last-child{border-bottom:0}
+.plan.featured{border-left-color:var(--brick)}
+.plan-row{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:10px 24px}
+.plan-name{font-size:1.35rem;font-weight:700}
+.plan-tag{display:inline-block;margin-left:10px;font-size:.74rem;letter-spacing:.16em;color:var(--ivory);background:var(--brick);padding:2px 9px;vertical-align:middle;font-weight:400}
+.plan-price{font-size:1.5rem;font-weight:700;color:var(--brick-dark);white-space:nowrap}
+.plan-price small{font-size:.8rem;font-weight:400;color:var(--ink-soft);margin-left:6px}
+.plan-annual{font-size:.9rem;color:var(--ink-soft);margin:4px 0 16px}
+.plan ul{margin:0;padding:0;list-style:none;display:grid;gap:8px}
+.plan ul li{padding-left:20px;position:relative;font-size:.97rem}
+.plan ul li::before{content:"";position:absolute;left:0;top:.68em;width:8px;height:8px;background:var(--brick);opacity:.75}
+.plan-note{margin-top:14px;font-size:.86rem;color:var(--ink-soft)}
+
+/* FAQ 编号列表 */
+.faq-list{counter-reset:faq;display:grid;gap:0}
+.faq-item{counter-increment:faq;display:grid;grid-template-columns:56px 1fr;gap:18px;padding:24px 0;border-bottom:1px dashed var(--line)}
+.faq-item:last-child{border-bottom:0}
+.faq-item::before{content:counter(faq,decimal-leading-zero);font-size:1.5rem;font-weight:700;color:var(--brick);line-height:1.3}
+.faq-q{font-size:1.06rem;font-weight:700;margin-bottom:6px}
+.faq-a{margin:0;color:var(--ink-soft)}
+
+/* 客户端区块 */
+.client-grid{display:grid;gap:18px;grid-template-columns:1fr}
+.client{border-left:5px solid var(--brick);background:var(--ivory-deep);padding:22px 24px}
+.client h3{font-size:1.06rem;margin-bottom:6px}
+.client p{margin:0;color:var(--ink-soft);font-size:.95rem}
+
+/* 底部固定文字导航 */
+.bottom-nav{position:fixed;left:0;right:0;bottom:0;background:var(--ink);border-top:3px solid var(--brick);z-index:20}
+.bottom-nav ul{max-width:1080px;margin:0 auto;padding:0 16px;list-style:none;display:flex;justify-content:space-between;gap:4px;overflow-x:auto}
+.bottom-nav a{display:block;padding:16px 8px;color:var(--ivory);font-size:.88rem;letter-spacing:.08em;border-bottom:0;white-space:nowrap}
+.bottom-nav a:hover{color:#f0c9b9}
+
+footer{padding:44px 0 28px;color:var(--ink-soft);font-size:.88rem}
+footer p{margin:0 0 .5em}
+
+@media (min-width:760px){
+  .client-grid{grid-template-columns:1fr 1fr}
+  .faq-item{grid-template-columns:72px 1fr}
+}
+@media (max-width:520px){
+  body{font-size:16px}
+  .hero{padding:44px 0 28px}
+  .faq-item{grid-template-columns:40px 1fr;gap:12px}
+  .faq-item::before{font-size:1.2rem}
+  .bottom-nav a{padding:14px 6px;font-size:.8rem}
+}
+</style><main>
+
+  <header class="hero wrap">
+    <p class="hero-kicker">疾速 · 使用说明</p>
+    <h1>疾速，从一条<span class="accent">时间线</span>开始讲清楚</h1>
+    <p class="hero-lead">大多数方案页面把结论摆在最前面，我们反过来：先把一件事从头到尾走过一遍，再谈价格和选项。这样你读完之后，应该能自己判断需不需要它。</p>
+
+    <ol class="timeline">
+      <li>
+        <span class="tl-step">第一步</span>
+        <span class="tl-title">先弄清自己每天在网络上做什么</span>
+        <span class="tl-desc">读写资料、看视频、远程开会、跑游戏，这四件事对带宽和线路的要求并不一样。先分类，再看方案，比先看价格更省事。</span>
+      </li>
+      <li>
+        <span class="tl-step">第二步</span>
+        <span class="tl-title">算清楚同时会有几台设备在用</span>
+        <span class="tl-desc">手机、笔记本、平板、电视盒子往往是同时在线的。疾速的各档方案在设备数量上有明确区分，选之前先数一遍。</span>
+      </li>
+      <li>
+        <span class="tl-step">第三步</span>
+        <span class="tl-title">对照套餐确认流量与线路</span>
+        <span class="tl-desc">流量是月度额度，线路则是决定体验的部分。旗舰版包含 IPLC 专线方向上的游戏优化配置，这一点在下面套餐区会逐项列出。</span>
+      </li>
+      <li>
+        <span class="tl-step">第四步</span>
+        <span class="tl-title">按自己的客户端习惯接入</span>
+        <span class="tl-desc">我们按使用场景说明接入方式，不预设你只用某一种系统。具体以页面列出的客户端区块为准。</span>
+      </li>
+      <li>
+        <span class="tl-step">第五步</span>
+        <span class="tl-title">读一读常见问题，再决定</span>
+        <span class="tl-desc">我们把这些年最常被问到的问题编号列出，答案写得比较长，因为短答案往往解决不了问题。</span>
+      </li>
+    </ol>
+  </header>
+
+  <section class="block wrap" id="about">
+    <div class="block-head">
+      <h2>疾速想解决的是什么</h2>
+      <p>不是把选项堆得更多，而是把每个选项讲明白。</p>
+    </div>
+    <article class="card">
+      <h3>把复杂的东西写成能读的句子</h3>
+      <p>网络方案的行话很多：节点、线路、并发、额度。疾速的做法是把这些词放回日常语境里，说清楚它影响你哪一个具体动作。</p>
+      <p>你不需要先成为懂行的人，才有资格做选择。</p>
+    </article>
+    <article class="card">
+      <h3>价格与权益一次写全</h3>
+      <p>月付价、年付价、流量额度、设备数量、线路类型，都摆在明面上。没有需要另点一层才能看到的隐藏条款。</p>
+    </article>
+    <article class="card">
+      <h3>不承诺做不到的事</h3>
+      <p>页面不写"无限"、不写"永不掉线"，也不编造速度数字。能用文字说清的，就用文字说清。</p>
+    </article>
+  </section>
+
+  <section class="block wrap" id="plans">
+    <div class="block-head">
+      <h2>套餐：三档，从上往下读</h2>
+      <p>按流量与设备数量递进。年付价在月付价之后单独标出，方便直接对比。</p>
+    </div>
+
+    <div class="plans">
+
+      <article class="plan">
+        <div class="plan-row">
+          <h3 class="plan-name">基础版</h3>
+          <span class="plan-price">¥15<small>/月</small></span>
+        </div>
+        <p class="plan-annual">按年付仅需 ¥150/年</p>
+        <ul>
+          <li>每月 100GB 流量额度</li>
+          <li>支持 3 台设备同时在线</li>
+          <li>解锁基础流媒体</li>
+          <li>普通线路节点池</li>
+        </ul>
+        <p class="plan-note">适合个人日常使用，设备数量有限，以阅读和视频为主。</p>
+      </article>
+
+      <article class="plan featured">
+        <div class="plan-row">
+          <h3 class="plan-name">旗舰版<span class="plan-tag">推荐</span></h3>
+          <span class="plan-price">¥35<small>/月</small></span>
+        </div>
+        <p class="plan-annual">按年付仅需 ¥350/年</p>
+        <ul>
+          <li>每月 300GB 流量额度</li>
+          <li>支持 5 台设备同时在线</li>
+          <li>全节点原生流媒体解锁</li>
+          <li>IPLC 专线游戏加速优化</li>
+          <li>7x24 优先工单支持</li>
+        </ul>
+        <p class="plan-note">多设备家庭的常见选择，也是本页标注的推荐档位。</p>
+      </article>
+
+      <article class="plan">
+        <div class="plan-row">
+          <h3 class="plan-name">团队版</h3>
+          <span class="plan-price">¥85<small>/月</small></span>
+        </div>
+        <p class="plan-annual">按年付仅需 ¥850/年</p>
+        <ul>
+          <li>每月 1000GB 流量额度</li>
+          <li>支持 20 台设备同时在线</li>
+          <li>VIP 专属高带宽节点</li>
+          <li>支持企业定制路由</li>
+          <li>专属客户经理服务</li>
+        </ul>
+        <p class="plan-note">面向多人共用与需要固定对接人的场景。</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="block wrap" id="clients">
+    <div class="block-head">
+      <h2>客户端与接入</h2>
+      <p>按你的使用习惯选择接入位置。以下为分类说明，具体安装与获取方式请以你实际使用的平台渠道为准。</p>
+    </div>
+    <div class="client-grid">
+      <article class="client">
+        <h3>桌面端</h3>
+        <p>笔记本与台式机是长时间在线的设备，适合作为主账号的常用终端。请以官方平台渠道提供的客户端为准。</p>
+      </article>
+      <article class="client">
+        <h3>移动端</h3>
+        <p>手机与平板适合短时、高频的使用场景。移动端会占用你的同时在线设备名额，选套餐时记得算进去。</p>
+      </article>
+      <article class="client">
+        <h3>路由器与电视端</h3>
+        <p>家庭共用通常接在路由器或电视盒子上。这类场景更容易触达设备数量上限，团队版的 20 台额度更宽裕。</p>
+      </article>
+      <article class="client">
+        <h3>多设备切换</h3>
+        <p>如果你习惯在不同设备间来回切换，请在套餐对比时优先看"同时在线设备数"这一行，而不是只看流量。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="block wrap" id="faq">
+    <div class="block-head">
+      <h2>常见问题</h2>
+      <p>按编号排列，答案写得比较完整。</p>
+    </div>
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <div>
+          <h3 class="faq-q">流量额度是怎么计算的？用完会怎样？</h3>
+          <p class="faq-a">每个套餐标注的是每月额度，例如基础版每月 100GB。额度按自然月或账单周期从新计算，页面不额外承诺超量后的处理方式，请在选择前对照自己的使用习惯预留余量。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div>
+          <h3 class="faq-q">"同时在线设备数"包括哪些设备？</h3>
+          <p class="faq-a">包括你在同一时间保持连接的所有终端：手机、平板、笔记本、电视盒子等。基础版为 3 台，旗舰版为 5 台，团队版为 20 台。关闭或断开连接的设备一般不占用名额。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div>
+          <h3 class="faq-q">月付和年付之间怎么选？</h3>
+          <p class="faq-a">年付相当于把成本摊平到全年。三档的年付价分别为 ¥150、¥350、¥850，与各自的月付价一一对应。如果你只是短期试用，月付更灵活；如果确定长期使用，年付更省。页面不额外提供其他优惠规则。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div>
+          <h3 class="faq-q">旗舰版里的 IPLC 专线优化是什么意思？</h3>
+          <p class="faq-a">这是该档方案在游戏方向上的线路配置项，目的在于改善延迟体验。本页只如实列出这一项权益的名称，不对具体数值或效果作出承诺。对线路有明确要求时，建议以旗舰版作为起点考虑。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div>
+          <h3 class="faq-q">流媒体解锁在各档之间有什么差别？</h3>
+          <p class="faq-a">基础版为"解锁基础流媒体"，旗舰版与团队版为"全节点原生流媒体解锁"。两者的区别在于可用范围与节点覆盖，具体以实际使用表现为准，本页不做平台名单的额外声明。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div>
+          <h3 class="faq-q">遇到问题找谁？</h3>
+          <p class="faq-a">旗舰版包含 7x24 优先工单支持，团队版配有专属客户经理。基础版未标注优先支持权益，请按照常规渠道提交问题。本页不提供未确认的联系方式。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div>
+          <h3 class="faq-q">团队版可以做什么定制？</h3>
+          <p class="faq-a">页面列出的定制项为"支持企业定制路由"，并配有一个专属客户经理负责对接。除此之外的定制范围，本页不作扩展说明，以免与实际条件不符。</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <p>疾速 · 本页内容为方案说明，价格与权益以页面所列条目为准。</p>
+    <p>页面未列出的服务承诺，不代表疾速提供。</p>
+  </footer>
+
+</main>
+
+<nav class="bottom-nav" aria-label="页面导航">
+  <ul>
+    <li><a href="#about">关于</a></li>
+    <li><a href="#plans">套餐</a></li>
+    <li><a href="#clients">客户端</a></li>
+    <li><a href="#faq">常见问题</a></li>
+    <li><a href="#">回到顶部</a></li>
+  </ul>
+</nav><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
